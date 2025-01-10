@@ -1,0 +1,125 @@
+
+/* #header part start: */
+/* 1.header img */
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* 2.font style */
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* 3.nav styles */
+nav{
+     display:flex; 
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.name{
+    font-weight: 800px;
+    font-size: 45px;
+}
+
+  nav ul{
+
+    display:flex;
+    align-items: center;
+   gap: 50px;
+    list-style: none;
+
+}
+nav li a {
+    text-decoration: none;
+}
+.button{
+    background-color:rgb(253, 110, 10) ;
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding: 18px 35px;
+    border: none;
+
+}
+/* 2.banner styles */
+.bannar-title{
+   color: rgb(71, 71, 71); 
+   font-size: 45px;
+   font-weight: 600px;
+}
+.bannar-subtitle{
+    color: rgb(24, 24, 24);
+    font-size: 85px;
+    font-weight: 700px;
+}
+p{
+    color:rgb(117, 117, 117);
+    /* font-size: 18px; */
+    /* font-weight: 400px; */
+    /* margin-left: 71px;
+    margin-right: 988px; */
+}
+.banner-img{
+    width: 584px;
+    height: 676px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 38px 0 230px ;
+
+}
+.banner-contant{
+    /* height: 356px; */
+    weight:585px ;
+}
+
+/* shared style */
+.secondary-bg{
+    background: rgb(255, 248, 243);
+}
+
+/* main part: */
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.section-content{
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    
+ }
+.section-title{
+    font-size: 35px;
+    color: rgb(24, 24, 24);
+    /* text-align: center; */
+}
+
+.section-description
+{
+    font-size: 18px;
+    color: rgb(117, 117, 117);
+    /* text-align: center; */
+}
+.about-info{
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
+}
+   
