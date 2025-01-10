@@ -85,6 +85,9 @@ p{
 .secondary-bg{
     background: rgb(255, 248, 243);
 }
+.text-align{
+    text-align: center;
+}
 
 /* main part: */
 .main{
@@ -118,8 +121,103 @@ p{
     display: flex;
     align-items: end;
     justify-content: space-around;
+    color: rgb(13, 13, 13);
 }
 .item-description{
     font-weight: 600;
+    
 }
-   
+.skills{
+    margin-top: 130px;
+    background-color:rgb(255, 248, 243);
+    padding: 40px 30px;
+
+}
+.skill-content{
+ padding: 0 110px; 
+}
+.skill-container{
+     display: flex;
+    align-items:end ;
+     justify-content: space-around; 
+     gap: 24px;
+    
+} 
+.skill-type{
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    height: 377px;
+ 
+}
+.skill-description{
+    text-align: left;
+    font-size: 16px;
+}
+  /* resume section style */
+  .resume{
+    margin-top: 130px;
+  }
+  
+  .resume-container{
+    display: flex;
+    gap: 24px;
+  }
+  .resume-column-title{
+    font-size: 30px;
+    color: rgb(71, 71, 71);
+  }
+  .experience-title{
+    font-size: 25px;
+    color: rgb(71, 71, 71);
+  }
+.experience-subtitle{
+    font-size: 20px;
+    color: rgb(117, 117, 117);
+}
+.experience-description{
+    font-size: 16px;
+    color: rgb(117, 117, 117);
+}
+/* footer styles */
+
+   footer{
+    padding: 130px 230px;
+    margin-top: 130px;
+    display: flex;
+    gap: 100px;
+   }
+   .footer-column{
+    width: 50%;
+   }
+   footer input[type="text"]
+{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 461px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+}  
+footer input[type="email"]
+{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 461px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+}    
+footer textarea
+{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 461px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+}    
